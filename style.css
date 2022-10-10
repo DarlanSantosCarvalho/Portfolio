@@ -32,6 +32,11 @@ nav a {
   color: #571cf9;
 }
 
+nav a:hover{
+  color: #8f67fd;
+  transition: 0.8s;
+}
+
 body {
   background-color: #171717;
 }
@@ -70,6 +75,11 @@ button {
   height: 42px;
   width: 143px;
   border: none;
+}
+
+.download:hover{
+  background-color: #8f67fd;;
+  transition: 0.8s;
 }
 
 .contato {
@@ -154,6 +164,11 @@ section.social i {
   font-size: 32px;
 }
 
+.social h3:hover{
+  color: #8f67fd;
+  transition: 0.8s;
+}
+
 .titulo {
   text-align: center;
   color: #ffffff;
@@ -191,22 +206,65 @@ section.social i {
 .inside-projeto-jordan {
   align-self: center;
   width: 100%;
-  height: 180px;
+  height: 185px;
   background: url(Imagens/jordan-loha.png);
 }
 
 .inside-projeto-carousel {
   align-self: center;
   width: 100%;
-  height: 180px;
+  height: 185px;
   background: url(Imagens/carousel.png);
 }
 
 .inside-projeto-formulario {
   align-self: center;
   width: 100%;
-  height: 180px;
+  height: 185px;
   background: url(Imagens/formulario.png);
+}
+
+.inside-projeto-cartao {
+  align-self: center;
+  width: 100%;
+  height: 185px;
+  background: url(Imagens/cartao.png);
+}
+
+.inside-projeto-landpage {
+  align-self: center;
+  width: 100%;
+  height: 185px;
+  background: url(Imagens/landpage-agencia.png);
+}
+
+.inside-projeto-fylo-landpage {
+  align-self: center;
+  width: 100%;
+  height: 185px;
+  background: url(Imagens/fylo-landpage.png);
+}
+
+h2.aviso{
+  color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+h2.aviso a{
+  text-decoration: none;
+  color: #571cf9;
+}
+
+h2.aviso a:hover{
+  color: #8f67fd;
+  transition: 0.8s;
+}
+
+h2.aviso a:visited{
+  color: #c3adff;
 }
 
 .projeto-pai .projeto .info {
@@ -217,7 +275,7 @@ section.social i {
 .info h2,
 h4{
   padding: 3px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .servicos {
