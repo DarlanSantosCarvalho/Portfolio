@@ -32,7 +32,7 @@ nav a {
   color: #571cf9;
 }
 
-nav a:hover{
+nav a:hover {
   color: #8f67fd;
   transition: 0.8s;
 }
@@ -77,8 +77,8 @@ button {
   border: none;
 }
 
-.download:hover{
-  background-color: #8f67fd;;
+.download:hover {
+  background-color: #8f67fd;
   transition: 0.8s;
 }
 
@@ -116,57 +116,66 @@ button {
   margin-top: 20px;
 }
 
-section.social {
-  padding: 80px 0;
-}
-
-section.social .container {
+.social {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  gap: 80px;
+  margin: 80px 70px;
 }
 
-section.social .container .social-col {
-  min-width: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+.social .linkedin {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 10px;
-  color: #571cf9;
-  text-decoration: none;
 }
 
-section.social .container div.icon-img img {
-  background-color: #212121;
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  padding: 5px;
-  border-radius: 50%;
-  color: #571cf9;
-  display: -webkit-box;
-  display: -ms-flexbox;
+.social .email {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-section.social i {
-  font-size: 32px;
+.social .whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.social h3:hover{
-  color: #8f67fd;
-  transition: 0.8s;
+.linkedin h2,
+p {
+  color: #571cf9;
+  margin: 3px;
+}
+
+.email h2,
+p {
+  color: #571cf9;
+  margin: 3px;
+}
+
+.whatsapp h2,
+p {
+  color: #571cf9;
+  margin: 3px;
+}
+
+.linkedin-imagem {
+  width: 90px;
+  height: 90px;
+}
+
+.email-imagem {
+  width: 90px;
+  height: 90px;
+}
+
+.telefone-imagem {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
 }
 
 .titulo {
@@ -245,25 +254,22 @@ section.social i {
   background: url(Imagens/fylo-landpage.png);
 }
 
-h2.aviso{
+h2.aviso {
   color: #f9f9f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
+  text-align: center;
 }
 
-h2.aviso a{
+h2.aviso a {
   text-decoration: none;
   color: #571cf9;
 }
 
-h2.aviso a:hover{
+h2.aviso a:hover {
   color: #8f67fd;
   transition: 0.8s;
 }
 
-h2.aviso a:visited{
+h2.aviso a:visited {
   color: #c3adff;
 }
 
@@ -273,7 +279,7 @@ h2.aviso a:visited{
 }
 
 .info h2,
-h4{
+h4 {
   padding: 3px;
   font-size: 1.3rem;
 }
@@ -307,7 +313,6 @@ h4{
 .container-servico p {
   font-family: "DM Sans", sans-serif;
   font-size: 32px;
-  color: #828282;
   padding-top: 45px;
   width: 150px;
 }
@@ -320,6 +325,18 @@ h4{
   padding: 30px;
   border-bottom: 5px solid #571cf9;
   margin: 50px;
+}
+
+.sites:hover{
+  border-bottom: 15px solid #571cf9;
+  padding: 15px 30px;
+  transition: 0.5s;
+}
+
+.responsividade:hover{
+  border-bottom: 15px solid #571cf9;
+  padding: 15px 30px;
+  transition: 0.5s;
 }
 
 .skills h2 {
@@ -362,59 +379,3 @@ footer p {
   font-size: 1.5rem;
 }
 
-/* MEDIA QUERIES */
-
-@media (max-width: 600px) {
-  .foto-programador img {
-    width: 0px;
-    height: 0px;
-  }
-
-  .apresentacao {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 530px) {
-  .cabecalho {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  nav ul li {
-    display: block;
-    margin-top: 10px;
-  }
-
-  .sobre-mim p {
-    font-size: 1em;
-  }
-
-  .projeto-pai {
-    grid-template-rows: repeat(2, 230px);
-  }
-
-  .responsividade,
-  .sites {
-    width: 50%;
-    height: 50%;
-  }
-
-  .responsividade,
-  .sites p {
-    font-size: 1em;
-  }
-
-  .apresentacao {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 12px;
-  }
-
-  .social-col {
-    margin: 0 auto;
-  }
-}
