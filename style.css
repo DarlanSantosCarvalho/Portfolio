@@ -123,6 +123,11 @@ button {
   margin: 80px 70px;
 }
 
+.social a{
+  text-decoration: none;
+  text-align: center;
+}
+
 .social .linkedin {
   display: flex;
   justify-content: center;
@@ -377,5 +382,6 @@ footer {
 footer p {
   width: 200px;
   font-size: 1.5rem;
+  color: black;
 }
 

@@ -1,3 +1,62 @@
-@media(max-witdth:425px){
+@media (max-width: 425px) {
+  .linkedin-imagem {
+    width: 65px;
+    height: 65px;
+  }
 
+  .email-imagem {
+    width: 65px;
+    height: 65px;
+  }
+
+  .telefone-imagem {
+    width: 65px;
+    height: 65px;
+  }
+
+  .linkedin h2,
+  p {
+    font-size: 1.1rem;
+  }
+
+  .email h2,
+  p {
+    font-size: 1.1rem;
+  }
+
+  .whatsapp h2,
+  p {
+    font-size: 1.1rem;
+  }
+
+  .social{
+    flex-direction: column;
+  }
+
+  .social .linkedin{
+    margin-bottom: 25px;
+  }
+
+  .social .email{
+    margin-bottom: 25px;
+  }
+
+  .social .telefone{
+    margin-bottom: 25px;
+  }
+
+  .cabecalho {
+    display: block;
+    text-align: center;
+  }
+
+  .cabecalho h2{
+    margin-bottom: 15px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
