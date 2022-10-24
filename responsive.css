@@ -59,4 +59,19 @@
     flex-direction: column;
     gap: 20px;
   }
+
+  .apresentacao{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .foto-programador{
+    margin-top: 30px;
+  }
+
+  .sobre-mim p{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+  }
 }
