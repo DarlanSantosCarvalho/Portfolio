@@ -231,11 +231,11 @@ p {
   background: url(Imagens/carousel.png);
 }
 
-.inside-projeto-formulario {
+.inside-projeto-selfcare {
   align-self: center;
   width: 100%;
   height: 185px;
-  background: url(Imagens/formulario.png);
+  background: url(Imagens/self-care.png);
 }
 
 .inside-projeto-cartao {
