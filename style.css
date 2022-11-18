@@ -75,6 +75,7 @@ button {
   height: 42px;
   width: 143px;
   border: none;
+  cursor: pointer;
 }
 
 .download:hover {
@@ -92,6 +93,12 @@ button {
   height: 42px;
   width: 143px;
   border: 1px solid rgb(53, 53, 53);
+  cursor: pointer;
+}
+
+.contato:hover{
+  background-color: rgb(54, 54, 54);
+  transition: 0.5s;
 }
 
 .sobre-mim {
@@ -224,18 +231,20 @@ p {
   background: url(Imagens/jordan-loha.png);
 }
 
-.inside-projeto-carousel {
+.inside-projeto-api-github {
   align-self: center;
   width: 100%;
   height: 185px;
-  background: url(Imagens/carousel.png);
+  background: url(Imagens/api-github.png);
+  background-size: cover;
 }
 
-.inside-projeto-selfcare {
+.inside-projeto-advice-api {
   align-self: center;
   width: 100%;
   height: 185px;
-  background: url(Imagens/self-care.png);
+  background: url(Imagens/advice-api.png);
+  background-size: contain;
 }
 
 .inside-projeto-cartao {
